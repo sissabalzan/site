@@ -26,15 +26,17 @@
         }
         .gallery {
             display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
+            flex-direction: column; /* Coloca as imagens em uma coluna */
+            align-items: center; /* Centraliza as imagens horizontalmente */
+            gap: 10px; /* Espaçamento entre as imagens */
             margin-top: 20px;
         }
         .gallery img {
-            max-width: 100%;
-            height: auto;
+            width: auto; /* Mantém a proporção da imagem */
+            height: 50px; /* Define a altura fixa de 50px */
             border: 2px solid #ddd;
-            border-radius: 5px;
+            border-radius: 5px; /* Bordas levemente arredondadas */
+            margin: 0 10%; /* Margem de 10% nas laterais */
         }
         footer {
             background-color: #333;
@@ -61,7 +63,7 @@
             <!-- Adicione suas imagens aqui -->
             <img src="https://cdn.awsli.com.br/2687/2687807/produto/248722106/risqu----do-meu-jeito-ieg1sq1fgx.jpg" alt="Descrição da Imagem 1">
             <img src="https://d531mnmtf91fa.cloudfront.net/Custom/Content/Products/10/22/1022039_kit-esmaltes-risque-bridgerton-8-produtos-17675_m1_638445372353019158.webp" alt="Descrição da Imagem 2">
-            <img src="https://cdn.ultrafarma.com.br/static/produtos/820832/large-637880541356654217-820832_2.png" alt=Descrição da Imagem 3">
+            <img src="https://cdn.ultrafarma.com.br/static/produtos/820832/large-637880541356654217-820832_2.png" alt="Descrição da Imagem 3">
             <!-- Adicione mais imagens conforme necessário -->
         </div>
     </div>
